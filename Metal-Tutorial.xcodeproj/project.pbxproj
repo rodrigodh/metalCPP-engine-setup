@@ -86,7 +86,7 @@
 			children = (
 				3E3248AC29D0028C009CDE34 /* external */,
 				3E47CD272987185800938A41 /* metal-cpp */,
-				3E56AB65297E0E6E00DB5F4F /* Metal-Tutorial */,
+				3E56AB65297E0E6E00DB5F4F /* Metal-Engine */,
 				3E56AB64297E0E6E00DB5F4F /* Products */,
 				3E581F1429871D3000E5CDF6 /* Frameworks */,
 			);
@@ -100,7 +100,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E56AB65297E0E6E00DB5F4F /* Metal-Tutorial */ = {
+		3E56AB65297E0E6E00DB5F4F /* Metal-Engine */ = {
 			isa = PBXGroup;
 			children = (
 				3E56AB66297E0E6E00DB5F4F /* main.mm */,
@@ -108,7 +108,7 @@
 				44B7EFF32BE26690008FAC6A /* mtl_engine.hpp */,
 				44B7EFF42BE266D2008FAC6A /* mtl_engine.mm */,
 			);
-			path = "Metal-Tutorial";
+			path = "Metal-Engine";
 			sourceTree = "<group>";
 		};
 		3E581F1429871D3000E5CDF6 /* Frameworks */ = {
