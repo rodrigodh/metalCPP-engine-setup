@@ -40,6 +40,10 @@ private:
     void encodeRenderCommand(MTL::RenderCommandEncoder* renderEncoder);
     void sendRenderCommand();
     void draw();
+    
+    // Necessary for window resize handling.
+    static void frameBufferSizeCallback(GLFWwindow *window, int width, int height);
+    void resizeFrameBuffer(int width, int height);
 
     MTL::Device* metalDevice;
     GLFWwindow* glfwWindow;
