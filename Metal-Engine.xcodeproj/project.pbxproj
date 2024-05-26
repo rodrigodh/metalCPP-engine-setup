@@ -15,6 +15,7 @@
 		3E581F1829871D3400E5CDF6 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E581F1729871D3400E5CDF6 /* Metal.framework */; };
 		3E581F1A29871D4300E5CDF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E581F1929871D4300E5CDF6 /* Foundation.framework */; };
 		3E69B2312989F21B0012094B /* mtl_implementation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E69B2302989F21B0012094B /* mtl_implementation.cpp */; };
+		44086C092C0370EE00BD5F2E /* triangle.metal in Sources */ = {isa = PBXBuildFile; fileRef = 44086C082C0370EE00BD5F2E /* triangle.metal */; };
 		44B7EFF52BE266D2008FAC6A /* mtl_engine.mm in Sources */ = {isa = PBXBuildFile; fileRef = 44B7EFF42BE266D2008FAC6A /* mtl_engine.mm */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		3E581F1729871D3400E5CDF6 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		3E581F1929871D4300E5CDF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3E69B2302989F21B0012094B /* mtl_implementation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mtl_implementation.cpp; sourceTree = "<group>"; };
+		44086C082C0370EE00BD5F2E /* triangle.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = triangle.metal; sourceTree = "<group>"; };
 		44B7EFF32BE26690008FAC6A /* mtl_engine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = mtl_engine.hpp; sourceTree = "<group>"; };
 		44B7EFF42BE266D2008FAC6A /* mtl_engine.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = mtl_engine.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,6 +109,7 @@
 				3E69B2302989F21B0012094B /* mtl_implementation.cpp */,
 				44B7EFF32BE26690008FAC6A /* mtl_engine.hpp */,
 				44B7EFF42BE266D2008FAC6A /* mtl_engine.mm */,
+				44086C082C0370EE00BD5F2E /* triangle.metal */,
 			);
 			path = "Metal-Engine";
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E56AB67297E0E6E00DB5F4F /* main.mm in Sources */,
+				44086C092C0370EE00BD5F2E /* triangle.metal in Sources */,
 				44B7EFF52BE266D2008FAC6A /* mtl_engine.mm in Sources */,
 				3E69B2312989F21B0012094B /* mtl_implementation.cpp in Sources */,
 			);
